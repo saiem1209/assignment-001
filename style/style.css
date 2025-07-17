@@ -61,3 +61,50 @@ nav div a{
     text-align: center;
     
 }
+
+/* body style */
+body{
+    background-color: #f3f6fd;
+
+}
+/* see it in action section addeed */
+.see-it-in-action {
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+}
+
+.see-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.action-content {
+  max-width: 500px;
+  padding: 20px;
+  text-align: left;
+}
+
+.see-it-in-action img {
+  width: 400px;
+  height: auto;
+  border-radius: 48px;
+}
+
+
+.action-content h3{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-content p{
+    font-size: 24px;
+    font-weight: normal;
+    color: #252432;
+}
+.live-button{
+    height: 48px;
+    width: 229px;
+}
