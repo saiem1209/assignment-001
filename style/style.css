@@ -78,7 +78,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1140px;
   width: 100%;
 }
 
@@ -107,4 +107,43 @@ body{
 .live-button{
     height: 48px;
     width: 229px;
+}
+
+/* productive user section */
+
+.productive-user{
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.productive-user-content{
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 100%;
+    align-items: center;
+    border-radius: 24px;
+    padding: 50px 142px;
+
+}
+
+.productive-user-details{
+    display: flex;
+    text-align: center;
+    gap: auto;
+    justify-content: space-between;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.content-title h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.sub-title{
+    font: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
