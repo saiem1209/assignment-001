@@ -204,3 +204,41 @@ body{
     display: flex;
     gap: 20px;
 }
+
+/* ready-focous section */
+.ready-focous{
+    height: 698px;
+    max-width: 100%;
+    margin: 100px;
+}
+.ready-focous-content{
+    align-content: center;
+    text-align: center;
+    border-radius: 14px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.ready-focous-title{
+    font-size: 50px;
+    font-weight: boldd
+}
+.ready-subtitle{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+.ready-focous-content img{
+    border-radius: 48px;
+    padding-top: 20px;
+}
+
+.get-start-button a{
+    text-decoration: none;
+    color: white;
+}
+.get-start-button{
+    height: 48px;
+    width: 229px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 8px;
+}
