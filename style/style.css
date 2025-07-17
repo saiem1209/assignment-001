@@ -242,3 +242,49 @@ body{
     border: none;
     border-radius: 8px;
 }
+
+/* get in touch section */
+
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    padding: 130px 200px;
+    gap: 100px;
+    justify-content: space-between;
+}
+.form-section input[type="text"], .form-section input[type="email"]{
+    height: 40px;
+    width: 300px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 2px 10px;
+    margin-bottom: 19px;
+
+}
+
+.form-section textarea{
+     background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 2px 10px;
+    margin-bottom: 19px;
+
+}
+
+.get-in-touch-button{
+    height: 48px;
+    width: 320px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.get-in-touch-title{
+    color: #000000;
+    font-size: 77px;
+    font-weight: bold;
+}
